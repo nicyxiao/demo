@@ -1,0 +1,407 @@
+* {
+    margin:0;
+    padding:0;
+    font:14px/1.6 "Microsoft yahei",宋体;
+    list-style-type:none;
+    text-decoration: none;
+}
+.top-warp {
+    background: #444;
+    width:100%;
+}
+
+#top {
+    background-color:#444;
+    height:30px;
+    width:1000px;
+    margin:0 auto;
+    font-size: 0;
+   overflow: hidden;
+   *zoom:1;
+}
+
+#top a,#top span {
+    color: #C7C7C7;
+    border-right:solid 2px #C7C7C7;
+    display:block;
+    /*vertical-align: middle;*/
+    padding: 0 14px;
+    line-height: 13px;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+.top-ul {
+    width:604px;
+    overflow: hidden;
+}
+
+#top span {
+    display: block;
+    padding:0 12px;
+
+}
+#top ul {
+    padding-right:0;
+    float:right;
+    font-size: 0;
+    padding-top: 8px;
+    overflow: hidden;
+    *zoom:1;
+    min-width:60%;
+    *width:60%;
+    white-space: nowrap;
+    word-wrap:normal;
+}
+
+#top li {
+/*    display: inline-block;
+    *display: inline;
+/*    *zoom:1;*/
+    float:left;
+}
+
+#top li span, #top .noborder{
+    border:0;
+}
+
+#top .denglu {
+    padding-left: 0px;
+}
+
+#top .register {
+    padding-right:0;
+    padding-left: 5px;
+}
+
+#top a:hover ,.nav a:hover {
+    text-decoration:underline;
+    color:#FA7B0E;
+    cursor:pointer;
+}
+#header-warp {
+    border-bottom: 1px solid #ECE8E8;
+    width:100%;
+    background:url("http://campus.alibaba.com/assets/campus/images/white-opacity.png") repeat-x left top;
+}
+
+
+.header {
+    width:1000px;
+    margin:0 auto;
+    overflow:visible;
+    height: 90px;
+    *max-height:90px;
+}
+
+.header span {
+    visibility:hidden;
+}
+
+h1 {
+    display:block;
+    height:117px;
+    width:180px;
+    float:left;
+    position:relative;
+    background:url("http://campus.alibaba.com/assets/campus/images/2014/logo.png") no-repeat left top;
+    *z-index:2;
+    *zoom:1;
+}
+
+.nav {
+    float:left;
+    height:90px;
+    /*background-color: #999;*/
+}
+.clearfix:after {
+    content:".";
+    display:block;
+    height:0;
+   visibility:hidden;
+   clear:both;
+}
+
+.clearfix { 
+   *zoom:1; 
+}
+
+.nav li {
+    float:left;
+    font-size:0;
+}
+
+
+.nav a {
+    padding:0 23px;
+    display:inline-block;
+    height: 88px;
+    line-height: 88px;
+    font-size: 16px;
+    color: #000;
+}
+
+.nav .home {
+    padding-left:38px;
+}
+
+.nav .selected a {
+    border-bottom:solid 2px #FA7B0E;
+    color:#FA7B0E;
+}
+
+#main {
+    width:100%;
+    min-width:1000px;
+    background:url("http://campus.alibaba.com/assets/campus/images/2014/bg.png") repeat;
+    padding:60px 0;
+   *margin-top: -28px;
+}
+
+.content {
+/*  background:pink;*/
+    margin: 0 auto;
+    width:1000px;
+    overflow: hidden;
+}
+
+.cntlist {
+    width: 561px;
+    padding: 0 30px;
+    float:left;
+}
+
+.content li {
+    float:left;
+    text-align: center;
+    width:173px;
+    height:173px;
+    margin:7px;
+    background: url("http://campus.alibaba.com/assets/campus/images/2014/pos-sprite.png") no-repeat;
+}
+
+.content .list-box {
+    display: table-cell;
+    vertical-align: middle;
+    width: 173px;
+    height: 173px;
+/*    padding*/
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+
+.cntlist li:hover .list-box {
+    background-color: #eee;
+    opacity: 1;
+    vertical-align: middle;
+}
+
+
+.cntlist a {
+    display: inline-block;
+    padding:3px 20px;
+    margin-top: 10px;
+    color:#fff;
+    text-decoration:underline;
+}
+
+ .inntern {
+    background-color:#FA7B0E;
+    border-bottom:4px solid #D96A09;
+}
+.graduate {
+    background-color: #74BA2F;
+    border-bottom: 4px solid #599320;
+}
+
+.cntlist h3 {
+    color:#444;
+}
+
+.cntlist a:after {
+    content:"";
+    display:inline-block;
+    width:11px;
+    height:11px;
+    background:url("http://campus.alibaba.com/assets/campus/images/2014/icon.png") no-repeat left top;
+    margin-left:10px;
+}
+
+.cntlist .li1 {
+    background-position: 0 0;
+}
+.cntlist .li2 {
+    background-position: -188px 0;
+}
+.cntlist .li3 {
+    background-position: -375px 0;
+}
+.cntlist .li4 {
+    background-position: 0 -187px;
+}
+.cntlist .li5 {
+    background-position: -188px -187px;
+}
+
+.cntlist .li6 {
+    background-position: -375px -187px;
+}
+.cntlist .li7 {
+    background-position: 0 -376px;
+}
+.cntlist .li8 {
+    background-position: -187px -376px;
+}
+.cntlist .li9 {
+    background-position: -375px -376px;
+}
+
+#sidebar h2{
+    display: inline-block;
+    height: 120px;
+    width: 216px;
+    margin-bottom:20px;
+    background: url(http://campus.alibaba.com/assets/campus/images/2014/slogan.png) no-repeat left top;
+    _background:none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://campus.alibaba.com/assets/campus/images/2014/slogan.png', sizingMethod='crop'); 
+    
+}
+
+#sidebar span {
+    visibility: hidden;
+}
+
+#sidebar {
+    float:right;
+    margin-top: 40px;
+    margin-right:87px;
+    width:216px;
+}
+
+.recruitment {
+/*    margin-top:46px;*/
+}
+.recruitment h4,.recruitment a{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color:#fff;
+    white-space: nowrap;
+    word-wrap:normal;
+    margin-bottom: 7px;
+}
+
+.recruitment h4 {
+    font-size: 18px;
+}
+
+.sidebar-boxsizing {
+    display: inline-block;
+    border-radius: 0.3em;
+    text-align: center;
+    font-size: smaller;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.recruitment a:hover.shixi {
+    text-decoration: underline;
+    background-color: #F98D30;
+    border-bottom: 6px solid #FA7B0E;
+}
+
+.shixi {
+    margin-bottom:11px;
+    background-color: #FA7B0E;
+    border-bottom: 6px solid #D96A09;
+    width:208px;
+}
+
+.recruitment .yingjie {
+    /*padding: 14px 53px;*/
+    background-color: #6AAC29;
+    border-bottom: 6px solid #599320;
+    width:208px;
+}
+
+.recruitment a:hover.yingjie{
+    text-decoration: underline;
+    background-color: #74BA2F;
+    border-bottom: 6px solid #63A127;
+} 
+.race {
+    margin-top:58px;
+    display: inline-block;
+    padding: 19px 11px;
+    font-size:smaller;
+    color:#4F583E;
+    background-color: #DEE5D1;
+    border-bottom: 6px solid #CAD1BE;
+    border-radius: 0.3em;
+    letter-spacing: 2px;
+}
+
+.race h4 {
+    font-size: 18px;
+}
+
+.race:hover {
+    text-decoration: underline;
+    background-color: #E8EEDD;
+    border-bottom: 6px solid #D6DCCB;
+}
+
+.footer-ul li {
+    /**display: inline;*/
+    float:left;
+
+}
+
+.footer-ul {
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.footer-ul a,.alibaba{
+    border-right:solid 1px gray;
+    display: block;
+    padding:0px 8px;
+    color: #585756;
+    line-height: 12px;
+    font-size: 14px;
+    margin-top:12px;
+    margin-bottom:12px;
+}
+
+.alibaba {
+    padding-right:0;
+}
+
+#footer {
+    margin-top:15px;
+    margin-bottom:20px;
+    text-align: center;
+    zoom: 1;
+}
+
+html,body {
+    /*height: 100%;*/
+}
+
+.footer-ul .noborder{
+    border-style:none;
+}
+
+#footer h3 {
+    color: #BCBCBC;
+    margin-top:0px;
+}
+
