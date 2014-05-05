@@ -177,7 +177,7 @@ span a#problem {
 
 .sidebar-ul {
 list-style: disc inside;
-color: color: #CCC;
+color:#CCC;
 padding: 0 25px;
 text-align: left;
 }
