@@ -177,11 +177,13 @@ span a#problem {
 
 .sidebar-ul {
 list-style: disc inside;
-color:#CCC;
 padding: 0 25px;
 text-align: left;
 }
 
+.sidebar-ul li {
+  color:#CCC;
+}
 .sidebar-ul a{
 text-align: left;
 font-size: 12px;
@@ -190,7 +192,7 @@ line-height: 25px;
 color: #383737;
 }
 
-.sidebar-ul a:hover {
+.sidebar-ul .a-selected,.sidebar-ul a:hover {
   color: #FF832C;
 }
 
