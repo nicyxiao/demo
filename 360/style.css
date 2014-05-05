@@ -12,7 +12,7 @@ a {
 
 .header {
   overflow:hidden;
-  border:solid 2px pink;
+  /*border:solid 2px pink;*/
   width:942px;
   margin:0 auto;
 }
@@ -109,7 +109,7 @@ a {
   background:white;
   width:942px;
   margin:0px auto;
-  border: solid 2px #F14669;
+  /*border: solid 2px #F14669;*/
   padding-top:40px;
 }
 
