@@ -1,7 +1,6 @@
 * {
   margin:0;
   padding:0;
-  list-style-type:none;
   font:14px/1.6 microsoft yahei,simsun;
   color:#666565;
 }
@@ -12,7 +11,7 @@ a {
 
 .header {
   overflow:hidden;
-  border:solid 2px pink;
+  /*border:solid 2px pink;*/
   width:942px;
   margin:0 auto;
 }
@@ -36,6 +35,7 @@ a {
 
 #nav {
   display:line-block;
+  list-style-type:none;
 }
 
 #nav li {
@@ -109,13 +109,15 @@ a {
   background:white;
   width:942px;
   margin:0px auto;
-  border: solid 2px #F14669;
+  /*border: solid 2px #F14669;*/
   padding-top:40px;
+
 }
 
 .cnt-container {
-  border: solid 2px #020B0E;
+  /*border: solid 2px #020B0E;*/
   margin:0 auto;
+  padding: 0 40px;
 }
 
 h2 {
@@ -144,12 +146,24 @@ span a#problem {
   text-align:center;
 }
 .sidebar-title {
-  background:url("http://p15.qhimg.com/t01851bbcbdeaa1c927.png") no-repeat ;
+  background:url("http://p15.qhimg.com/t011a5ac26592607170.png") no-repeat 21px 9px;
   display:block;
   padding:4px 37px;
   color:white;
+  text-align: left;
 }
 
+.selected{
+  background:url(http://p15.qhimg.com/t011a5ac26592607170.png) no-repeat 22px -10px;
+}
+
+.sidebar-bg {
+  background: url(http://p15.qhimg.com/t01851bbcbdeaa1c927.png) no-repeat;
+}
+
+.sider-bg1 {
+  background: url("http://p19.qhimg.com/t015703109422236562.png") no-repeat top left;
+}
 #sidebar {
   margin-top:25px;
   margin-left:15px;
@@ -158,21 +172,22 @@ span a#problem {
 /*   border:solid 2px blue; */
   float:left;
   margin-right:20px;
+  list-style-type: none;
 }
 
 .sidebar-ul {
-  display:inline-block;
-  list-style:disc inside;
-  color:#ccc;
+list-style: disc inside;
+color: color: #CCC;
+padding: 0 25px;
+text-align: left;
 }
 
 .sidebar-ul a{
-  list-style-type:disc;
-  text-align:left;
-  font-size:14px;
-  height:25px;
-  line-height:25px;
-  color:#383737;
+text-align: left;
+font-size: 12px;
+height: 25px;
+line-height: 25px;
+color: #383737;
 }
 
 .sidebar-ul a:hover {
@@ -187,9 +202,11 @@ span a#problem {
 }
 
 .faq dt {
-  font-size:18px;
-  color:#626262; 
-  padding-top:21px;
+padding-left: 28px;
+font-size: 18px;
+color: #626262;
+padding-top: 21px;
+background: url(http://p3.qhimg.com/t011a241b377d0c3d7a.png) 0px 22px no-repeat;
 }
 .faq dd {
   border-bottom:solid 1px #E0E0E0;
@@ -199,7 +216,8 @@ span a#problem {
 }
 
 .faq .firstdt {
-  padding-top:0;
+padding-top: 0;
+background: url(http://p3.qhimg.com/t011a241b377d0c3d7a.png) 0px 2px no-repeat;
 }
 
 #footer {
