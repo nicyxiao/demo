@@ -201,6 +201,8 @@ color: #383737;
   display:block;
   overflow:hidden;
   margin:30px 25px;
+  position: static;
+  border: 0 none;
 }
 
 .faq dt {
